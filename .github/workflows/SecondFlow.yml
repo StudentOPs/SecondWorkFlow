@@ -1,7 +1,7 @@
-name: 
+name: SimpleWorkFlow
+on:
     push:
-        braches:
-        - main
+        branches: [ "main" ]
     workflow_dispatch:
 jobs: 
     hello:
